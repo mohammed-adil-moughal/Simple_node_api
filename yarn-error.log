@@ -1,0 +1,32 @@
+Arguments: 
+  /home/adil/.nvm/versions/node/v9.7.1/bin/node /usr/share/yarn/bin/yarn.js start
+
+PATH: 
+  /home/adil/.nvm/versions/node/v9.7.1/bin:/home/adil/bin:/home/adil/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/adil/Android/Sdk/tools:/home/adil/Android/Sdk/platform-tools:/opt/android/sdk/tools:/opt/android/sdk/platform-tools:/opt/android/sdk/tools:/opt/android/sdk/platform-tools
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.7.1
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Couldn't find a package.json file in "/home/adil/Documents/Node_app"
+      at new MessageError (/usr/share/yarn/lib/cli.js:186:110)
+      at /usr/share/yarn/lib/cli.js:40048:15
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:98:30)
+      at /usr/share/yarn/lib/cli.js:109:13
+      at <anonymous>
