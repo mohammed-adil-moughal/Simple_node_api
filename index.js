@@ -7,12 +7,11 @@ const StringDecoder = require("string_decoder").StringDecoder;
 const config = require("./config");
 const fs = require("fs");
 
-// import  {http} from 'http';
-// import https from 'https';
-// import  parse  from 'url';
-// import  StringDecoder  from 'string_decoder';
-// import  {httpPort}  from './config';
-// import fs from 'fs'
+const _data=require('./lib/data');
+_data.delete('test','newFile',function(err){
+  console.log('this was')
+})
+
 
 const httpServer = http.createServer((req, res) => {
   unifiedServer(req, res);
